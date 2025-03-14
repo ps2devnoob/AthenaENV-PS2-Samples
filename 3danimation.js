@@ -10,7 +10,7 @@ Screen.setFrameCounter(true);
 Screen.setVSync(false);
 
 // set working directory to "render"
-os.chdir("3D Animation");
+os.chdir("3DAnimation");
 
 //Render.setView(fov, near_clip, far_clip) - Initializes rendering routines. FOV, NearClip and FarClip aren't mandatory.
 Render.setView(60.0, 5.0, 4000.0);
